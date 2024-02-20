@@ -1,5 +1,18 @@
-body{
+.titulo-principal{
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.principal{
     background-color: #cccccc;
+    padding: 20px;  
+}
+
+.titulo-centralizado{
+    text-align: center;
 }
 p{
     text-align: center;
@@ -8,5 +21,29 @@ p{
 /* seleccionar el strong que esta unicamente dentro de em */
 em strong{ 
     color: red; 
+}
+/* selector po id  */
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background-color: white;
+    padding: 30px;
+}
+
+
+ul{
+     display: inline-block; /* ocupa solo el espacio de su contenido  */
+     vertical-align: top;    /* alinea los elementos en la parte superior */
+     width: 20%;     /* ancho de la lista */
+     margin-right: 15% ;   /* separacion entre listas */
+}
+/* selector por clase */
+.items{
+    font-style: italic;
+}
+.imagenDiferenciales{
+    width: 50%;
 }
 
