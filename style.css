@@ -3,19 +3,19 @@
 }
 
 #banner{
-    width: 100%;
+    width: 100%;  /*ocupa  todo el ancho de la pantalla. */
 }
 
 .principal{
-    background-color: #cccccc;
-    padding: 20px;  
+    background-color: #cccccc;    /*Color del fondo*/
+    padding: 20px;      /*espacio alrededor del texto*/
 }
 
 .titulo-centralizado{
-    text-align: center;
+    text-align: center;        /*Centra el titulo en horizontal y verticalmente*/
 }
 p{
-    text-align: center;
+    text-align: center;        /*Centra las lineas de texto en horizontal*/
 }
 
 /* seleccionar el strong que esta unicamente dentro de em */
@@ -23,7 +23,7 @@ em strong{
     color: red; 
 }
 /* selector po id  */
-#mision{
+ #mision{  
     font-size: 20px;
 }
 
