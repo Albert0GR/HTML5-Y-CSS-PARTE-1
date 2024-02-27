@@ -25,6 +25,11 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+/* uso de propiedad over captura el movimiento del mouse */
+nav a:hover {  
+    color: #145A32  ;
+    text-decoration: underline;
+}
 
 /*main*/
 .productos{
@@ -51,10 +56,23 @@ nav a{
    
 }
 
+.productos li:hover{
+    border-color: #28B463;
+    
+}
+
+.productos li:active{
+    border-color: #D35400;
+}
+
 .productos h2{
     font-size: 30px;
     font-weight: bold;
 }
+.productos li:hover h2{  /*al posicionarse ne cualquier paerte del li afecta al h2*/
+    font-size: 33px;
+}
+
 .producto-descripcion{
     font-size: 18px;
 }
