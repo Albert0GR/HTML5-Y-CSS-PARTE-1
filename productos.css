@@ -84,3 +84,16 @@ nav a:hover {
 }
 
 /*Fin de main*/
+
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);   /*repite y copia la imagen para adecuar el fondo*/
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
