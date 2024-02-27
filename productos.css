@@ -41,6 +41,14 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;    /*para que los paddings se consideren en la caja de borde*/
+   
+    border: 2px solid #000000 ;    /*borde del producto en modo abreviado que representa las lineas de abajo */
+
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #cccccc; */
+    border-radius: 10px;
+   
 }
 
 .productos h2{
