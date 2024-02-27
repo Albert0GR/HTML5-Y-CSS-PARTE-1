@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto - Barbería Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">    <!-- enlace a un archivo css externo -->
 </head>
 <body>
-    <h1>hello word</h1>
+    
+    <header>
+
+        <div class="caja">
+
+            <h1><img src="img/logo.png"> </h1>
+
+            <nav>
+        
+                <ul>  <!--vinculos a las diferentes paginas de nuestra pagina web  -->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>  
+
+            </nav>
+        
+        </div>
+    
+    </header>
+
+    <main>
+        <!--inicio de formulario  -->
+        <form>
+            <label for="nombreapellido">Nombre y apellido</label>
+            <input type="text" id="nombreapellido">
+
+            <label for="correoelectronico">Correo electrónico</label>
+            <input type="text" id="correoelectronico">
+
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono">   
+
+            <input type="submit" value="Enviar formulario">
+        </form>
+        <!--fin de formulario  -->
+    </main>
+
+    <footer>
+        <img src="img/logo-blanco.png" alt="">   <!-- la forma de relacionar  -->
+        <p class="copyright">&copy Copyright Barberia Alura -2024</p>
+    </footer>  
 </body>
 </html>

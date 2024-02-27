@@ -1,49 +1,133 @@
-.titulo-principal{
-    padding-left: 30px;
+header{
+    background-color: #BBBBBB; /*COLOR DE FONDO*/
+    padding: 20px 0;
 }
 
-#banner{
-    width: 100%;  /*ocupa  todo el ancho de la pantalla. */
+.caja{
+    position: relative; 
+    width: 940px;
+    margin: 0 auto;  /* margenes 0: superior e inferior, izquierdo y derecho automatico */
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.principal{
-    background-color: #cccccc;    /*Color del fondo*/
-    padding: 20px;      /*espacio alrededor del texto*/
+nav li{
+    display: inline;    /*ocupa solamente el espacio de su contenido*/
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+/* uso de propiedad over captura el movimiento del mouse */
+nav a:hover {  
+    color: #145A32  ;
+    text-decoration: underline;
 }
 
-.titulo-centralizado{
-    text-align: center;        /*Centra el titulo en horizontal y verticalmente*/
+/*main*/
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
 }
-p{
-    text-align: center;        /*Centra las lineas de texto en horizontal*/
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;    /*ancho relativo al contenedor  padre (productos)*/
+    vertical-align: top;
+    
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;    /*para que los paddings se consideren en la caja de borde*/
+   
+    border: 2px solid #000000 ;    /*borde del producto en modo abreviado que representa las lineas de abajo */
+
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: #cccccc; */
+    border-radius: 10px;
+   
 }
 
-/* seleccionar el strong que esta unicamente dentro de em */
-em strong{ 
-    color: red; 
+.productos li:hover{
+    border-color: #28B463;
+    
 }
-/* selector po id  */
- #mision{  
+
+.productos li:active{
+    border-color: #D35400;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{  /*al posicionarse ne cualquier paerte del li afecta al h2*/
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.diferenciales{
-    background-color: white;
-    padding: 30px;
+/*Fin de main*/
+
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg);   /*repite y copia la imagen para adecuar el fondo*/
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
 }
 
 
-ul{
-     display: inline-block; /* ocupa solo el espacio de su contenido  */
-     vertical-align: top;    /* alinea los elementos en la parte superior */
-     width: 20%;     /* ancho de la lista */
-     margin-right: 15% ;   /* separacion entre listas */
+/* inicio estilos de la pagina de contactos  */
+
+/* centrar elemwntos */
+
+main{
+    width: 940px;
+    margin: 0 auto;  /* centra el contenido */ 
 }
-/* selector por clase */
-.items{
-    font-style: italic;
+
+form{
+    margin: 40px 0;
 }
-.imagenDiferenciales{
+/* formato vertical  */
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
 
+
+
+
+
+/* fin estilos de la pagina de contactos  */
