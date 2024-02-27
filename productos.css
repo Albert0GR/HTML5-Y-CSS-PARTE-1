@@ -1,12 +1,12 @@
 header{
     background-color: #BBBBBB; /*COLOR DE FONDO*/
-    padding: 20px auto;
+    padding: 20px 0;
 }
 
 .caja{
-    position: relative;  
+    position: relative; 
     width: 940px;
-    margin: 0 auto;
+    margin: 0 auto;  /* margenes 0: superior e inferior, izquierdo y derecho automatico */
 }
 nav{
     position: absolute;
