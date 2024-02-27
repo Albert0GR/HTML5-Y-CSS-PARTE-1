@@ -33,13 +33,31 @@
         <!--inicio de formulario  -->
         <form>
             <label for="nombreapellido">Nombre y apellido</label>
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" class="input-padre">
 
             <label for="correoelectronico">Correo electrónico</label>
-            <input type="text" id="correoelectronico">
+            <input type="text" id="correoelectronico" class="input-padre">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">   
+            <input type="text" id="telefono" class="input-padre">   
+
+            <label for="mensaje">Mensaje</label>
+            <textarea  id="mensaje" class="input-padre" cols="70" rows="10"></textarea>
+
+            <div>
+                <p>Como le gustaría que le contactemos</p>
+                <!-- la propiedad name agrupa los radio buton para que solo sea elegible uno a la vez -->
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
+                
+
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                
+            </div>
+            
+            <label for=""><input type="checkbox" class="checkbox">Le gustaría recibir novedades de la Barberia</label>
 
             <input type="submit" value="Enviar formulario">
         </form>
