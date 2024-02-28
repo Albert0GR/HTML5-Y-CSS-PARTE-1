@@ -149,6 +149,19 @@ form label, form legend{     /* para aplicar estilos a otros elementos podemos h
     
 }
 
+table{
+    margin: 40px 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 
 
 /* fin estilos de la pagina de contactos  */
