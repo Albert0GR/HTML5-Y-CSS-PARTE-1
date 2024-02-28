@@ -139,12 +139,14 @@ form label, form legend{     /* para aplicar estilos a otros elementos podemos h
     background: orange;
     border: none;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background: rgb(204, 115, 7);
+    transform: scale(1.1);
+    
 }
 
 
