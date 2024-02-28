@@ -208,8 +208,27 @@ td, th{
     margin: 0 0 2em;
     text-align: center;
 }
-.imagenDiferenciales{
+
+.contenido-diferenciales{
+    width: 700px;
+    margin: 0 auto;
+}
+.imagen-diferenciales{
     width: 60%;
+    
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block; /* ocupa solo el espacio de su contenido  */
+    vertical-align: top;    /* alinea los elementos en la parte superior */
+}
+.items{
+    line-height: 1.5;  
+}
+.items:first-child{  /* pseudoclase para  el primer elemento de cada li */
+
+    font-weight:  bold;       /* lo pone negrita */
+
 }
 
 .video{

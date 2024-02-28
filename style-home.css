@@ -43,7 +43,12 @@ ul{
 .items{
     font-style: italic;
 }
+.items :first-child{  /* pseudoclase para  el primer elemento de cada li */
+
+    font-weight:  bold;       /* lo pone negrita */
+    color: green;            /* le da el color verde a este elemento */
+}
 .imagenDiferenciales{
-    width: 50%;
+    width: 40%;
 }
 
