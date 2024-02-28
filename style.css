@@ -1,3 +1,8 @@
+body{
+    /* fuentes importadas  de Google Fonts */
+    font-family: "Anta", sans-serif;
+    /* font-family: "Kode Mono", monospace;     */
+}
 header{
     background-color: #BBBBBB; /*COLOR DE FONDO*/
     padding: 20px 0;
