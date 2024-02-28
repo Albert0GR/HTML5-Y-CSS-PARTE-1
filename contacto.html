@@ -33,16 +33,16 @@
         <!--inicio de formulario  -->
         <form>
             <label for="nombreapellido">Nombre y apellido</label>
-            <input type="text" id="nombreapellido" class="input-padre">
+            <input type="text" id="nombreapellido" class="input-padre" required>
 
             <label for="correoelectronico">Correo electrónico</label>
-            <input type="email" id="correoelectronico" class="input-padre">
+            <input type="email" id="correoelectronico" class="input-padre" required placeholder="ejemplo@alura.com"> 
 
             <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padre">   
+            <input type="tel" id="telefono" class="input-padre" required placeholder="(+52) xxx xxx xxxx">   
 
             <label for="mensaje">Mensaje</label>
-            <textarea  id="mensaje" class="input-padre" cols="70" rows="10"></textarea>
+            <textarea  id="mensaje" class="input-padre" required cols="70" rows="10"></textarea>
 
             <div>
                 <p>¿Como le gustaría que le contactemos?</p>
@@ -53,7 +53,7 @@
                 <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefono</label>
                 
 
-                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                 
             </div>
 
@@ -68,7 +68,7 @@
             </select>
             <!-- fin de selector de horario  -->
             
-            <label ><input type="checkbox" class="checkbox">Le gustaría recibir novedades de la Barberia</label>
+            <label ><input type="checkbox" class="checkbox" checked>Le gustaría recibir novedades de la Barberia</label>
 
             <input type="submit" value="Enviar formulario">
         </form>
