@@ -197,6 +197,9 @@ td, th{
     color: #D35400;
     font-weight: bold;
 }
+.titulo-principal:hover{
+    color: rgba(11, 5, 5, 0.4)
+}
 
 p::first-line{
     font-style: italic;
@@ -243,6 +246,10 @@ p::first-line{
 .imagen-diferenciales{
     width: 60%;
     
+}
+.imagen-diferenciales:hover{
+    opacity:  .75;
+    transition: 400ms;
 }
 .lista-diferenciales{
     width: 40%;
