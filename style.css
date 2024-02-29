@@ -292,9 +292,41 @@ p::first-line{
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
         width: auto;
     }
-    .lista-diferenciales , .imagen-diferenciales{
+    .lista-diferenciales , .imagen-diferenciales,.productos li, .input-padre, .enviar{
         width: 100%;
     }
+
+    .productos{
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+     .productos li{
+        margin: 5px 0 5px 0;
+     }
+
+     table{
+        width: 80%;
+    }
+
+    form{
+        margin:1px;
+    }
+
+  
+    .input-padre{  
+         
+        margin: 0;
+        padding: 0 0 20px;
+       
+    }
+
+    label{
+        text-align: center;
+    }
+
+  
+
  
 
 }
