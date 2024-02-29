@@ -198,7 +198,7 @@ td, th{
     font-weight: bold;
 }
 .titulo-principal:hover{
-    color: rgba(11, 5, 5, 0.4)
+    color: rgba(11, 5, 5, 0.4)  /* el 4to valor indica la opacidad */
 }
 
 p::first-line{
@@ -245,11 +245,12 @@ p::first-line{
 }
 .imagen-diferenciales{
     width: 60%;
-    
+    transition: 400ms;
+    box-shadow: 9px 9px 40px #000000;
 }
 .imagen-diferenciales:hover{
     opacity:  .75;
-    transition: 400ms;
+    
 }
 .lista-diferenciales{
     width: 40%;
