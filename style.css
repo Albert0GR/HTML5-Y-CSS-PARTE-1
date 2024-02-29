@@ -278,3 +278,37 @@ p::first-line{
 
 
 /* fin de estilos pagina home  */
+
+/* propiedades mediaQuery */
+/* si encuentras una pantalla con hasta 480px aplica las siguientes propiedades */
+@media screen and (max-width:480px){ 
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales , .imagen-diferenciales{
+        width: 100%;
+    }
+ 
+
+}
+
+@media screen and (min-width:480px) and (max-width:1024px){ 
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+        width: auto;
+    }
+
+}
